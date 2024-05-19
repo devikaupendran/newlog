@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body
+{
+    font-family: sans-serif;
+    background-image: url(thunder.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+nav
+{
+    background-color:#002a85;
+    height:80px;
+    width:100%;
+    border-bottom: .5px solid white;
+}
+.logo
+{
+    color:white;
+    font-size: 35px;
+    line-height:80px;
+    padding-left:100px;
+    font-weight: bold;
+    
+}
+nav ul
+{
+    float:right;
+    margin-right: 30px;
+
+}
+nav ul li
+{
+    display:inline;
+    line-height: 80px; 
+    margin-right:5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:7px 13px;
+    border-radius: 3px; 
+
+}
+a .home,a:hover
+{
+    background-color: rgb(49, 7, 240);
+    transition: 0.5s;
+}
+.checkbtn
+{
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 35px;
+    cursor:pointer;
+}
+#check
+{
+    display:none;
+}
+.main
+{   
+    display: inline;
+    margin-top: 10px;
+   color: white;
+   
+}
+
+
+

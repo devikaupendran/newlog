@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <link rel="stylesheet" href="navbar.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="login.css" rel="stylesheet" type="text/css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+        <label class="logo">ThunDerX</label>
+        <ul>
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="login">
+        <div class="log">                                                      <!-- main div for whole form-->
+        <form>                                                             <!--form starts here-->
+            <h1>Login Form</h1>
+            <div class="input-box">                                        <!--div for input box-->                               
+                <input type="text" placeholder="username" required>        
+               <i class='bx bx-user' style="color:white"></i>                                   <!-- user icon for username -->
+            </div>
+            <div class="input-box">                                         <!--div for password-->                         
+                <input type="password" placeholder="password" required> 
+                <i class='bx bx-lock' style="color:white"></i>                                  <!--lock icon for password (font usage)-->
+            </div>
+            <div class="remember">                                          <!--div for remember me checkbox-->
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot Password ?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-acc">                                      <!--div for register-->
+                <p>Don't have an account ?<a href="#">Register</p>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
